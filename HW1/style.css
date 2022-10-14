@@ -1,0 +1,49 @@
+body{
+    background-color: #faf2f2;
+}
+
+h3, h4{
+    color: darkgrey;
+}
+
+.container{
+    width: 1200px;
+    height: 400px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-left, .column-right{
+    width: 575px;
+    height: max-content;
+    padding: 20px;
+}
+
+.column-left h3{
+    margin-top: 50px;
+}
+
+.inputArea{
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    padding: 30px;
+}
+
+textarea{
+    background-color: #faf2f2;
+    resize:none;
+    font-size: 16px;
+}
+
+.addWork{
+    width: 280px;
+    height: 60px;
+    background-color: royalblue;
+    font-size: 16px;
+    color: white;
+    border: none;
+    margin-top: 50px;
+}
+
